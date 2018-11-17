@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.DYDStreamPro" name="[B][COLOR red].DYD STREAM PRO[/COLOR][/B]" version="2.0" provider-name="DerianBlack">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">DYD STREAM PRO</summary>
+    <description lang="es">Addon oficial con el que podras ver todo el contenido de nuestros paquetes en tu reproductor KODI</description>
+    <disclaimer lang="es">© Copyright 2018 - 2019 DB</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
