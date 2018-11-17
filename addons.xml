@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.DYDStreamPro" name="[B][COLOR red].DYD STREAM PRO[/COLOR][/B]" version="2.1" provider-name="DB">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">DYD STREAM PRO</summary>
+    <description lang="es">Addon oficial con el que podras ver todo el contenido de nuestros paquetes en tu reproductor KODI</description>
+    <disclaimer lang="es">© Copyright 2018 - 2019 DB</disclaimer>
+    <platform>all</platform>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="DYDSTREAM">
+        <info>https://raw.githubusercontent.com/wolfiptv/DYDSTREAM/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/wolfiptv/DYDSTREAM/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/wolfiptv/master/DYDSTREAM/</datadir>
+    </extension>
+
+</addon>
+
+<addon id="repository.DYDSTREAM" name="[COLOR lime]DYDSTREAM[/COLOR] Repo" version="1.0.1" provider-name="DB">
+    <extension point="xbmc.addon.repository" name="DYDSTREAM">
+        <info>https://raw.githubusercontent.com/wolfiptv/DYDSTREAM/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/wolfiptv/DYDSTREAM/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/wolfiptv/master/DYDSTREAM/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio SISTEMA DYDSTREAM</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
